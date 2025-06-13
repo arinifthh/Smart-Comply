@@ -20,11 +20,12 @@
 - Tambah bole edit/delete form
 - Tanya dorang, perlu ke buat datatable ?
 - Add branch value
-- Corrective Action diff page
-- Follow up audit diff page
+- Corrective Action diff page - b4 class
+- Follow up audit diff page - b4 class
 - add draft other than submit
-- try form with diff section (kena split each section) 
-- dekat follow audit takyah ada corrective action as note tu kan ? (bole add dekat atas)
+- try form with diff section (kena split each section) - b4 class
+- dekat follow audit add corrective action as note above tu kan ? - b4 class 
+- fix why if tak log in jadi error (authorize problem maybe)
 
 ## Where to edit ?
 1. in 'Shared/Sections/Navbar/_NavBarPartial.cshtml <br>
