@@ -1,11 +1,10 @@
 # Smart-Comply
 
-1. SmartComply will be used by a single tenant (e.g., Econsave):
+1. SmartComply will be used by a single tenant (e.g., Econsave Pulai):
    - Each company (like Econsave) would typically be treated as one tenant in a multi-tenant SaaS system.
-   - This tenant can have multiple branches (e.g., different store locations).
 
 2. Internal auditors from Econsave will use SmartComply to audit each branch:
-   - Internal auditors are part of the tenant's (Econsave’s) organization and are responsible for performing audits at each branch.
+   - Internal auditors are part of the tenant's (Econsave’s) organization and are responsible for performing audits.
    - Admins (from Econsave) are responsible for building audit forms:
 
 3. Different forms for different compliance standards:
@@ -16,16 +15,17 @@
 
 ## Audit
 
-- Percentage score no decimal
-- Tambah bole edit/delete form
-- Tanya dorang, perlu ke buat datatable ?
-- Add branch value
-- Corrective Action diff page - b4 class
-- Follow up audit diff page - b4 class
+- Percentage score no decimal ✅
+- Tambah bole edit/archive form 
+- Buat datatable 
+- Remove branch value
+- Corrective Action diff page ✅
+- Correction on follow up audit diff page 
 - add draft other than submit
 - try form with diff section (kena split each section) - b4 class
-- dekat follow audit add corrective action as note above tu kan ? - b4 class 
 - fix why if tak log in jadi error (authorize problem maybe)
+- Manager can view audit history
+- Fic signature part 
 
 ## Where to edit ?
 1. in 'Shared/Sections/Navbar/_NavBarPartial.cshtml <br>
