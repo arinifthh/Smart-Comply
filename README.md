@@ -39,6 +39,7 @@
 - Details
   - Add generate report ✅
   - scale (tk penting)
+  - remove theme by ap tu, kacau report 
 
 ### KIV
 - tak perlu buat macam item then standard ke ?
