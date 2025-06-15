@@ -14,18 +14,58 @@
 
 
 ## Audit
-
-- Percentage score no decimal ✅
-- Tambah bole edit/archive form 
-- Buat datatable 
-- Remove branch value
+### Important part 
 - Corrective Action diff page ✅
-- Correction on follow up audit diff page 
+- Follow up audit diff page ✅
+- details in diff section
+- corrective action in diff section 
+- generate report on submitted form and follow up
+- in views detail ada drop down bole pilih, first audit, second audit, third audit
+- every audit ni kat bawah ada corrective action and follow up audit, so corrective action & fua takyah letak kat dropdown history
+- warning if submit empty record
+- Tambah bole edit/archive form
+- kalau generate report kena letak corrective action follow up audit semua ke ?
+- view details to patut ada generate first audit form then follow up audit,
+- follow up audit bole buat berapa kali, kalau lebih sekali kena letak first audit, second audit like that ?
+- tambah status ke untuk score tu macam excellent, fair semua tu
+- fix if tambah follow up audit jangan ubah score initial audit
+- Index.cshtml
+  - Tambah column followupaudit date
+  - tambah filter
+  - score no decimal
+  - remove time from audit date
+  - tambah option macam all, draft, completed
+  - only keluar CA and FUA for record yg required
+- Details
+  - Add generate report ✅
+  - scale (tk penting)
+
+### KIV
+- tak perlu buat macam item then standard ke ?
+- radio button checkbox dropdown mmg takde score eh
+- kalau guna number input je bole dpt score, mmg cemtu ke eh ?
+- perlu ke compliance level ? (kalau sempat add nanti)
+
+### After complete Important
+- make datatable bigger  
+- tambah scale kat auditform (1-very poor, 2-poor,..)
+- fix why text tak dpt score details 
+- Percentage score no decimal 
+- add corrective action on follow up audit
+- fix real time score on follow up audit
+- buang corrective action and follow up audit if dah 100% and complete
+- Buat datatable ✅
+- Remove branch value from database 
 - add draft other than submit
-- try form with diff section (kena split each section) - b4 class
 - fix why if tak log in jadi error (authorize problem maybe)
 - Manager can view audit history
-- Fic signature part 
+- Fix signature part
+- Tukar symbol untuk menu audit ✅ 
+- org boleh pilih kena follow up untuk yg tak fullscore or kita set ?
+- modify status, (draft, need corrective action, need follow up, completed,archived (hidden or lowest record)
+- add day if report 
+- Add warning
+  - warning if put value more than max 
 
 ## Where to edit ?
 1. in 'Shared/Sections/Navbar/_NavBarPartial.cshtml <br>
