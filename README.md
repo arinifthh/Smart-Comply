@@ -17,11 +17,15 @@
 ### Important part 
 - Corrective Action diff page ✅
 - Follow up audit diff page ✅
-- details in diff section
-- corrective action in diff section 
+- details in diff section ✅
+- fix percentage to decimal places 
+- Fix follow up audit ✅
+- add revise status
+- add signature at admin part
+- SMARTCOMPLY -> SmartComply
 - generate report on submitted form and follow up
 - in views detail ada drop down bole pilih, first audit, second audit, third audit
-- every audit ni kat bawah ada corrective action and follow up audit, so corrective action & fua takyah letak kat dropdown history
+- every audit ni kat bawah ada corrective action and follow up audit, so corrective action & fua takyah letak kat dropdown history 
 - warning if submit empty record
 - Tambah bole edit/archive form
 - kalau generate report kena letak corrective action follow up audit semua ke ?
@@ -30,12 +34,12 @@
 - tambah status ke untuk score tu macam excellent, fair semua tu
 - fix if tambah follow up audit jangan ubah score initial audit
 - Index.cshtml
-  - Tambah column followupaudit date
+  - Tambah followupaudit date under status if status is 'needfollowup'
   - tambah filter
   - score no decimal
   - remove time from audit date
-  - tambah option macam all, draft, completed
-  - only keluar CA and FUA for record yg required
+  - tambah option macam all, draft, completed 
+  - only keluar CA and FUA for record yg required ✅
 - Details
   - Add generate report ✅
   - scale (tk penting)
@@ -48,6 +52,7 @@
 - perlu ke compliance level ? (kalau sempat add nanti)
 
 ### After complete Important
+- fix error dropdown, radio for continue edit audit 
 - make datatable bigger  
 - tambah scale kat auditform (1-very poor, 2-poor,..)
 - fix why text tak dpt score details 
