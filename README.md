@@ -17,22 +17,22 @@
 ### Important part 
 - Corrective Action diff page ✅
 - Follow up audit diff page ✅
-- details in diff section ✅
-- fix percentage to decimal places 
+- details in diff section ✅ 
 - Fix follow up audit ✅
-- add revise status
+- add revise status ✅
+- kalau draft bole delete, kalau da submit bole archive je ✅
 - add signature at admin part
 - SMARTCOMPLY -> SmartComply
 - generate report on submitted form and follow up
 - in views detail ada drop down bole pilih, first audit, second audit, third audit
-- every audit ni kat bawah ada corrective action and follow up audit, so corrective action & fua takyah letak kat dropdown history 
+- kenapa kalau status tukar revise form tu tak bole edit dah
+- kalau follow up audit form baru tpi tarik problem item dri form lama  
+- every audit ni kat bawah ada corrective action and follow up audit, so corrective action & fua takyah letak kat dropdown history ❌
 - warning if submit empty record
-- Tambah bole edit/archive form
-- kalau generate report kena letak corrective action follow up audit semua ke ?
 - view details to patut ada generate first audit form then follow up audit,
 - follow up audit bole buat berapa kali, kalau lebih sekali kena letak first audit, second audit like that ?
 - tambah status ke untuk score tu macam excellent, fair semua tu
-- fix if tambah follow up audit jangan ubah score initial audit
+
 - Index.cshtml
   - Tambah followupaudit date under status if status is 'needfollowup'
   - tambah filter
@@ -50,6 +50,8 @@
 - radio button checkbox dropdown mmg takde score eh
 - kalau guna number input je bole dpt score, mmg cemtu ke eh ?
 - perlu ke compliance level ? (kalau sempat add nanti)
+- delete tu nak tukar archive ?
+- kalau generate report kena letak corrective action follow up audit semua ke ?
 
 ### After complete Important
 - fix error dropdown, radio for continue edit audit 
